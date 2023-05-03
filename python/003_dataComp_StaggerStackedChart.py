@@ -18,7 +18,7 @@ labels = ['成品B', '成品A']
 
 fig = plt.figure(figsize=(9,5), dpi=90)
 ax = fig.add_subplot(1,1,1)
-#第一个坐标轴和图，季度次品数
+#第一个坐标轴和图，月度次品数
 ax.set_ylabel('月度次品数')
 ax.set_xlabel('最近一年（-1表示当月的前1个月）')
 plt.bar(period, compA_defectNum, width=0.5, label='成品A')
